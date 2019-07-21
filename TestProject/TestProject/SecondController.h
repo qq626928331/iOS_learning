@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondController.h
 //  TestProject
 //
 //  Created by dxl on 2019/7/20.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SecondController : UIViewController
 
-//@property(nonatomic,strong) NSString *shikai;
 
--(void) setMyName;
 @end
-

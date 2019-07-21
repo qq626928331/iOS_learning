@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  SKProject
+//  TestProject
 //
 //  Created by dxl on 2019/7/20.
 //  Copyright © 2019年 dxl. All rights reserved.
@@ -17,7 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *zhangsan = @"aaaaaaaa";
+    
+    
 }
+
 
 
 - (void)didReceiveMemoryWarning {

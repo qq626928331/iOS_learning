@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  SKProject
+//  TestProject
 //
 //  Created by dxl on 2019/7/20.
 //  Copyright © 2019年 dxl. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "UserinfoViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UserinfoViewController *userinfoVC=[[UserinfoViewController alloc]init];
+    self.window.rootViewController=userinfoVC;
+    [self.window makeKeyAndVisible];
+    
+    
+    
+    
     return YES;
 }
 
